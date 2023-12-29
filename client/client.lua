@@ -2,7 +2,7 @@ local RSGCore = exports['rsg-core']:GetCoreObject()
 local Result = nil
 local NUI_status = false
 
-RegisterNetEvent('rsg-lockpick:client:openLockpick', function(callback, circles)
+RegisterNetEvent('rsg-lock:client:openLockpick', function(callback, circles)
     lockpickCallback = callback
     exports['rsg-lock']:StartLockPickCircle(total,circles) 
 end)
